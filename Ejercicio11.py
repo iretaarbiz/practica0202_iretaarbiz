@@ -3,9 +3,9 @@ de unidades y muestre por pantalla una cadena con el nombre del producto seguido
 precio unitario con 6 dígitos enteros y 2 decimales, el número de unidades con tres dígitos
 y el coste total con 8 dígitos enteros y 2 decimales. '''
 
-producto = input("Producto \n")
-precio = float(input("Precio \n"))
-unidades = int(input("Unidades \n"))
+producto = input("Producto: \n")
+precio = float(input("Precio: \n"))
+unidades = int(input("Unidades: \n"))
 total = round(precio, 2) * unidades
 print("El producto {} vale {:9.2f} y quiero {:3d} unidades. El total es de {:11.2}€".format(producto, precio, unidades, total))
 print(total)

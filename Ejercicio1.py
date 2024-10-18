@@ -3,4 +3,4 @@ distintas el nombre del usuario tantas veces como el número introducido.'''
 
 nombre = input("¿Como te llamas? \n")
 numero = int(input("¿Cuantas veces quieres que se repita? \n"))
-print((nombre+"\n")*numero)
+print((nombre + "\n") * numero)

@@ -2,7 +2,7 @@
 la consola y muestre por pantalla otro correo electrónico con el mismo nombre
 (la parte delantera de la arroba @) pero con dominio ceu.es.'''
 
-correo = input("Introduce a continuación tu correo electrónico: ")
+correo = input("Introduce a continuación tu correo electrónico: \n")
 correosep = correo.split("@")
 correodom = correosep[0] + "@ceu.es"
-print(correodom)
+print("El correo electrónico con el dominio es", correodom)
