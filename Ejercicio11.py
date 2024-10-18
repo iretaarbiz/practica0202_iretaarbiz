@@ -7,5 +7,4 @@ producto = input("Producto: \n")
 precio = float(input("Precio: \n"))
 unidades = int(input("Unidades: \n"))
 total = round(precio, 2) * unidades
-print("El producto {} vale {:9.2f} y quiero {:3d} unidades. El total es de {:11.2}€".format(producto, precio, unidades, total))
-print(total)
+print("El producto {} vale {:9.2f} y quiero {:3d} unidades. El total es de {:8}€".format(producto, precio, unidades, round(total, 2)))
